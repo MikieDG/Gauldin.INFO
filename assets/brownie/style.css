@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    background-color: #161616;
+    color: ghostwhite;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #161616;
+    height: 10%;
+}
+
+header {
+    background-color: #161616;
+    color: goldenrod;
+    margin: auto;
+    text-align: center;
+}
+
+main {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+header img {
+    display: block;
+    max-width: 100%;
+    border-radius: 8px;
+    margin: auto;
+}
+
+a {
+    color: greenyellow;
+    display: inline-flex;
+    align-self: center;
+    justify-self: center;
+}
+
+p {
+    margin: 3%;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.intro, .ingredients, .instructions {
+    max-width: 100%;
+    background-color: rgb(35, 35, 35);
+    margin: 5%;
+    padding: 0.5%;
+    border-radius: 0.5rem;
+    box-shadow: 5px 10px 5px rgba(5, 5, 5, 0.7);
+}
+
+h3, .ingredients h2, .instructions h2 {
+    text-align: center;
+    color: goldenrod;
+}
+
+li {
+    margin: 3%;
+    font-size: 1.25rem;
+}
+
+#ingredients, #instructions {
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width:600px){
+    ol li, menu li {
+        margin: 2rem;
+    }
+
+    main {
+        max-width: 100%;
+        min-width: 20rem;
+    }
+}
