@@ -18,7 +18,9 @@ body {
     flex-direction: column;
     background-color: #1d1d1d;
     color: goldenrod;
-    font-size: 1.2rem;    
+    font-size: 1.2rem;  
+    align-items: center;  
+    text-align: center;
 }
 
 nav {
@@ -40,7 +42,7 @@ a {
     display: flex;
     list-style-type: none;
     align-items: center;
-    margin-left: auto;
+    
 }
 
 .navigation-item {
@@ -52,12 +54,10 @@ section {
 }
 
 .about-me-article {
-    margin-right: 1rem;
+    
 }
 
-.projects-article {
-    margin-right: 1rem;
-}
+
 
 details {
     cursor: pointer;
