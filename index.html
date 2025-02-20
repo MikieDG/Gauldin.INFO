@@ -2,45 +2,63 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="/assets/home/style.css">
+  <link rel="stylesheet" href="/assets/test/style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/680e556b6c.js" crossorigin="anonymous"></script>
   <title>Welcome</title>
 </head>
-
 <body>
-  <header>
-    <h1>Hello</h1>
-    <h2>Welcome to my little corner of the internet.</h2>
-    <p>Links to sites i've made</p>
-  </header>
-  
-  <nav class="navbar">
-    <ul>
-      <li>
-        <a href="#" id="link1">Home</a>
-      </li>
-      <li>
-        <a href="/recipes" id="link2">Recipes</a>
-      </li>
-      <li>
-        <a href="/link-keeper" id="link3">Link-tracker</a>
-      </li>
-      <li>
-        <button id="color-button">Change Color</button>
-      </li>
-    </ul>
-
+  <nav>
+    <h2 class="name">Michael Daniel Gauldin</h2>
+      <ul class="navigation-items">
+        <li class="navigation-item"><a href="#" >About me</a></li>
+        <li class="navigation-item"><a href="#" >Projects</a></li>
+        <li class="navigation-item"><a href="#" >Skills</a></li>
+        <li class="navigation-item"><a href="#" >Contact</a></li>
+      </ul>
   </nav>
   <main>
-    <h2>My journey</h2>
-    <article class="journey">
-      <p>I started this project not only to expand my current knowledge but also to learn something new. </p>
-      <p>This has been a massive undertaking as i do not have huge amounts of time to put into projects. </p>
-      <p>I hope you like what i have made.</p>
-    </article>
+    <section id="about-me">
+        <article class="about-me-article">
+          <h2>About me</h2>
+          <p>Hello! I'm Michael. I am currently learning web development.</p>
+          <p>Here are some of the projects i've made</p>
+          <p>Some are complete and some are ongoing</p>
+          <p>Most if not all will be complete by the time i finish learning</p>
+          <p>In my free time I love to play with my kid and learn new things</p>
+        </article>
+    </section>
+    <section id="projects">
+      <article class="projects-article">
+        <h2>Projects</h2>
+        <details class="project">
+          <summary class="project-title">
+            <a href="/recipes">
+              <h3>My Recipe Website</h3>
+            </a>
+          </summary>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <a href="/link-keeper"><h3>My Link Tracker</h3></a>
+          </summary>
+        </details>
+      </article>
+    </section>
 
+    <section id="skills">
+      <h2>My Skills</h2>
+      <div id="skills-icons">
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-git"></i>
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-brands fa-node-js"></i>
+      </div>
+    </section>
   </main>
+
 </body>
-<script src="/assets/home/script.js"></script>
+
 </html>
