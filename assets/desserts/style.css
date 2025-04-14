@@ -4,6 +4,7 @@
     background-color: #1d1d1d;
     text-decoration: none;
     font-family: "roboto";
+    border-radius: 10%;
 }
 
 header {
@@ -14,7 +15,7 @@ header {
   
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 5%;
     margin-top: 5%;

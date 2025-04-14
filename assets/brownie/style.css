@@ -37,13 +37,6 @@ header img {
     margin: auto;
 }
 
-a {
-    color: greenyellow;
-    display: inline-flex;
-    align-self: center;
-    justify-self: center;
-}
-
 p {
     margin: 3%;
     text-align: center;
