@@ -48,7 +48,7 @@ p {
     background-color: rgb(40, 40, 40);
     margin: 5%;
     padding: 0.5%;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     box-shadow: 0.1rem 0 5rem rgba(218, 165, 32, 0.322),
                 -0.1rem 0 5rem rgba(218, 165, 32, 0.322)}
 

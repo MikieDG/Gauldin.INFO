@@ -4,6 +4,7 @@
     background-color: #1d1d1d;
     text-decoration: none;
     font-family: "roboto";
+    border-radius: 10%;
 }
 
 header {
@@ -14,9 +15,9 @@ header {
   
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 10%;
+    gap: 5%;
     margin-top: 5%;
     justify-content: center;
     justify-items: center;
@@ -30,7 +31,7 @@ h2 {
     color: goldenrod;
 }
 
-h2, p, a, .time{
+h2, p, a{
     background-color: #2d2d2d;
 }
   
@@ -51,24 +52,6 @@ a {
 
 a:hover {
     transform: scale(1.03);
-}
-  
-.time {
-    margin: 0;
-    width: 20px;
-    height: auto;
-}
-  
-.mins {
-    margin: 0;
-    padding: 0;
-    display: inline;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 0.3px;
-    color: #8afa8a;
-    position: relative;
-    bottom: 0.3rem;
 }
   
 .description {
