@@ -4,7 +4,7 @@
 :root {
     --primary-color: #161616;
     --secondary-color: rgb(40, 40, 40);
-    --heading-color: rgb(1, 150, 250);
+    --heading-color: rgb(0, 150, 200);
     --text-color: ghostwhite;
     --highlight-color: rgba(255, 255, 255, 0.082);
 }
