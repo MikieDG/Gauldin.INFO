@@ -78,8 +78,8 @@ details {
     flex-wrap: wrap;
 }
   
-#skills-icons > * {
-    font-size: 2em;
+i {
+    font-size: 48px;
     width: 2em;
     margin-top: 0.5rem;
 }
